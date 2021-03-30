@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=New+Tegomin&display=swap');
+
+body{
+            margin: 0px;    
+            background-color: beige;
+            font-family: 'New Tegomin', sans-serif, fantasy, cursive;
+        }
+        
+        h1{
+        
+            border: 5px solid blue;
+            border-bottom: 5px solid red;
+            border-right: 5px solid red;
+            padding: 20px;
+        }
+        
+        h1,h2, h3, h4,h5{
+            color: cornflowerblue;
+        }
+        
+/*        creating a class in CSS*/
+        .container{
+            width: 80%;
+            margin: auto;
+        }
+        
+        footer{
+            background-color: darkseagreen;
+/*            top right bottom and left */
+            padding: 10px;  
+        }
+        
+/*        creating an Id in CSS*/
+        #menu{
+            list-style-type: none;
+            text-align: right;
+            margin: 0px;
+            padding: 20px;
+            overflow: hidden;
+            background-color:darkseagreen; 
+        }
+        
+       #menu li{
+            display: inline;
+            padding: 20px;
+        }
+        
+        #menu a{
+            text-decoration: none;
+        }
+        
+        #menu li:hover
+        {
+           color: aliceblue;
+            background-color:brown;
+        }
+        
+        #menu li:active{
+            color: red;
+            background-color: aqua;
+        }
+
+#formDiv{
+    width: 70%;
+    float: left;
+    border: 2px solid blue;
+    padding: 5px;
+}
+
+#addressDiv{
+    width: 25%;
+    float: left;
+    border: 2px solid green;
+    margin: 5px;
+    padding: 5px;
+}
+        
+.clear{
+    clear: both;
+}
+
+.myForm{
+    padding: 20px;    
+}
+
+.myForm label{
+    display: block;
+}
+
+.myForm input[type="text"], .myForm input[type="tel"], .myForm input[type="email"], .myForm textarea
+{
+    width: 90%;
+    padding: 5px;
+}
+
+.btn1
+{
+    background-color: brown;
+    color: navajowhite;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+}
